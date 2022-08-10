@@ -1,8 +1,8 @@
 {
   "name": "chai-enzyme",
-  "version": "1.0.0-beta.1",
-  "description": "Chai.js assertions for enzyme",
-  "homepage": "https://github.com/producthunt/chai-enzyme",
+  "version": "1.0.1-react16",
+  "description": "Chai.js assertions for enzyme - react16",
+  "homepage": "https://github.com/mvmendes/chai-enzyme",
   "author": {
     "name": "Veselin Todorov",
     "email": "hi@vesln.com",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/producthunt/chai-enzyme.git"
+    "url": "git://github.com/mvmendes/chai-enzyme.git"
   },
   "bugs": {
-    "url": "https://github.com/producthunt/chai-enzyme/issues"
+    "url": "https://github.com/mvmendes/chai-enzyme/issues"
   },
   "main": "build/index.js",
   "scripts": {
@@ -28,9 +28,9 @@
   "peerDependencies": {
     "chai": "^3.0.0 || ^4.0.0",
     "cheerio": "0.19.x || 0.20.x || 0.22.x || ^1.0.0-0",
-    "enzyme": "^2.7.0 || ^3.0.0",
-    "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0",
-    "react-dom": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0"
+    "enzyme": "^2.7.0 || ^3.11.0",
+    "react": "^0.14.0 || ^15.0.0-0 || ^16.14.0-0",
+    "react-dom": "^0.14.0 || ^15.0.0-0 || ^16.14.0-0"
   },
   "keywords": [
     "javascript",
@@ -58,14 +58,14 @@
     "babel-register": "^6.5.2",
     "chai": "^3.0.0 || ^4.0.0",
     "cross-env": "^3.1.4",
-    "enzyme": "^2.7.0 || ^3.0.0",
-    "enzyme-adapter-react-15": "^1.0.0",
+    "enzyme": "^2.7.0 || ^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
     "jsdom": "^9.1.0",
     "mocha": "^3.0.0",
     "prop-types": "^15.5.7",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
-    "react-test-renderer": "^15.6.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-test-renderer": "^16.14.0",
     "rimraf": "^2.5.0",
     "snazzy": "^5.0.0",
     "standard": "^8.1.0"
